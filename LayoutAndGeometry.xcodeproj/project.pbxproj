@@ -11,6 +11,14 @@
 		8D1D2A8027944E9400484F88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A7F27944E9400484F88 /* ContentView.swift */; };
 		8D1D2A8227944E9500484F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D2A8127944E9500484F88 /* Assets.xcassets */; };
 		8D1D2A8527944E9500484F88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D2A8427944E9500484F88 /* Preview Assets.xcassets */; };
+		8D1D2A8C2794549600484F88 /* BasicTextAlignmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A8B2794549600484F88 /* BasicTextAlignmentScreen.swift */; };
+		8D1D2A8F2794557100484F88 /* LastBaseTextLineAlignmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A8E2794557100484F88 /* LastBaseTextLineAlignmentScreen.swift */; };
+		8D1D2A912794577500484F88 /* AlignmentGuideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A902794577500484F88 /* AlignmentGuideScreen.swift */; };
+		8D1D2A9327946B2200484F88 /* TieredAlignmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A9227946B2200484F88 /* TieredAlignmentScreen.swift */; };
+		8D1D2A952794741100484F88 /* CustomAlignmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D2A942794741100484F88 /* CustomAlignmentScreen.swift */; };
+		8D4A721C2794FA6500E6F490 /* PositionAndOffsetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A721B2794FA6500E6F490 /* PositionAndOffsetScreen.swift */; };
+		8D4A721E2795000400E6F490 /* GeometryReaderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A721D2795000400E6F490 /* GeometryReaderScreen.swift */; };
+		8D4A7220279503A000E6F490 /* RotatingGeometryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A721F279503A000E6F490 /* RotatingGeometryScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		8D1D2A7F27944E9400484F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D1D2A8127944E9500484F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1D2A8427944E9500484F88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D1D2A8B2794549600484F88 /* BasicTextAlignmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextAlignmentScreen.swift; sourceTree = "<group>"; };
+		8D1D2A8E2794557100484F88 /* LastBaseTextLineAlignmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastBaseTextLineAlignmentScreen.swift; sourceTree = "<group>"; };
+		8D1D2A902794577500484F88 /* AlignmentGuideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideScreen.swift; sourceTree = "<group>"; };
+		8D1D2A9227946B2200484F88 /* TieredAlignmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieredAlignmentScreen.swift; sourceTree = "<group>"; };
+		8D1D2A942794741100484F88 /* CustomAlignmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentScreen.swift; sourceTree = "<group>"; };
+		8D4A721B2794FA6500E6F490 /* PositionAndOffsetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionAndOffsetScreen.swift; sourceTree = "<group>"; };
+		8D4A721D2795000400E6F490 /* GeometryReaderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScreen.swift; sourceTree = "<group>"; };
+		8D4A721F279503A000E6F490 /* RotatingGeometryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGeometryScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,8 @@
 			children = (
 				8D1D2A7D27944E9400484F88 /* LayoutAndGeometryApp.swift */,
 				8D1D2A7F27944E9400484F88 /* ContentView.swift */,
+				8D1D2A8D279454A700484F88 /* Day92 */,
+				8D4A721A2794F81800E6F490 /* Day93 */,
 				8D1D2A8127944E9500484F88 /* Assets.xcassets */,
 				8D1D2A8327944E9500484F88 /* Preview Content */,
 			);
@@ -65,6 +83,28 @@
 				8D1D2A8427944E9500484F88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D1D2A8D279454A700484F88 /* Day92 */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D2A8B2794549600484F88 /* BasicTextAlignmentScreen.swift */,
+				8D1D2A8E2794557100484F88 /* LastBaseTextLineAlignmentScreen.swift */,
+				8D1D2A902794577500484F88 /* AlignmentGuideScreen.swift */,
+				8D1D2A9227946B2200484F88 /* TieredAlignmentScreen.swift */,
+				8D1D2A942794741100484F88 /* CustomAlignmentScreen.swift */,
+			);
+			path = Day92;
+			sourceTree = "<group>";
+		};
+		8D4A721A2794F81800E6F490 /* Day93 */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A721B2794FA6500E6F490 /* PositionAndOffsetScreen.swift */,
+				8D4A721D2795000400E6F490 /* GeometryReaderScreen.swift */,
+				8D4A721F279503A000E6F490 /* RotatingGeometryScreen.swift */,
+			);
+			path = Day93;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4A721E2795000400E6F490 /* GeometryReaderScreen.swift in Sources */,
+				8D4A7220279503A000E6F490 /* RotatingGeometryScreen.swift in Sources */,
 				8D1D2A8027944E9400484F88 /* ContentView.swift in Sources */,
+				8D1D2A912794577500484F88 /* AlignmentGuideScreen.swift in Sources */,
+				8D1D2A9327946B2200484F88 /* TieredAlignmentScreen.swift in Sources */,
 				8D1D2A7E27944E9400484F88 /* LayoutAndGeometryApp.swift in Sources */,
+				8D1D2A8C2794549600484F88 /* BasicTextAlignmentScreen.swift in Sources */,
+				8D1D2A8F2794557100484F88 /* LastBaseTextLineAlignmentScreen.swift in Sources */,
+				8D1D2A952794741100484F88 /* CustomAlignmentScreen.swift in Sources */,
+				8D4A721C2794FA6500E6F490 /* PositionAndOffsetScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
