@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HorizontalRotatingView.swift
 //  LayoutAndGeometry
 //
-//  Created by Heath Fashina on 2022-01-16.
+//  Created by Heath Fashina on 2022-01-18.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HorizontalRotatingScreen: View {
     let colors: [Color] = [.red, .green, .blue, .orange, .pink, .purple, .yellow]
     
     var body: some View {
@@ -29,8 +29,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HorizontalRotatingScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HorizontalRotatingScreen()
     }
 }
